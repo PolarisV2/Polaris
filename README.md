@@ -1,4 +1,4 @@
-### UPDATE: After people attempting to revive the project without authorization, We've added a license that prevents you from using our branding. Other than that, you are free to use, modify and distribute our code as long as you comply with our [LICENSE](https://github.com/PolarisV2/Polaris/blob/prod/LICENSE).
+### UPDATE: After people attempting to revive the project without authorization, We've added a license that prevents you from using our branding. Other than that, you are free to use, modify and distribute our code as long as you comply with our [LICENSE](https://github.com/PolarisV2/Polaris/blob/main/LICENSE).
 
 
 # PolarisV2
