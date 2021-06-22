@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Third Party">
+      <UniqueIdentifier>{a437db91-f314-4e05-bcf1-d855c033d77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\SDK">
+      <UniqueIdentifier>{b2e86bfb-5c22-4d19-b49b-e5f20c4fb446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{aab72208-794e-42b4-aab1-1c6f24d6a28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\SDK">
+      <UniqueIdentifier>{73b1869e-3fc9-4101-ba5a-8d021b07133b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Error Handling">
+      <UniqueIdentifier>{392349c6-e5ff-44f0-ae1c-de5d965a7ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables">
+      <UniqueIdentifier>{c508fda0-e1c4-4636-84c1-881eb532b6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables\Plates">
+      <UniqueIdentifier>{0a2e18e3-7b04-4f36-941b-79deec3c88ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables\Plates\Base">
+      <UniqueIdentifier>{e255795b-244f-405d-a2e0-61b7527c4e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables\Plates\Frontend">
+      <UniqueIdentifier>{1dba7569-6d7e-4d45-8217-52b90e703867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables\Plates\Athena">
+      <UniqueIdentifier>{3144f85a-8930-456e-87bb-24954dfef5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables\Peh Table">
+      <UniqueIdentifier>{37da6385-db2a-4d05-a6bb-932d876af354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a552ffdd-0716-44bb-b9b7-e6030240e7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\imgui">
+      <UniqueIdentifier>{7d7a8197-6995-4dfd-9d20-8cda58d6b89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Platform">
+      <UniqueIdentifier>{d26f6036-f5e1-4ddd-9320-690a177b74eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Renderer">
+      <UniqueIdentifier>{810e235e-a48c-4402-aef0-6d3da7c14626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables\Plates\Farmstead">
+      <UniqueIdentifier>{9ed2ec0b-a63e-4963-ab74-3180b7f32bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Extensions">
+      <UniqueIdentifier>{d8b4d04d-d840-4b9d-93ad-e976ccb6bad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window">
+      <UniqueIdentifier>{e4545648-70f8-4fc6-b9e1-580c08f9aa17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window\Windows">
+      <UniqueIdentifier>{3944c69e-cfe8-4a1c-b6fb-35990305030c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window\Windows\Main Window">
+      <UniqueIdentifier>{b3190ab4-4431-445b-9277-2ad73cd90886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window\Windows\About Window">
+      <UniqueIdentifier>{43ea6f48-fb7c-443d-90c4-315fe12099cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pawn">
+      <UniqueIdentifier>{0acadc5a-9351-4f4c-bf85-01f3ae63dff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pawn\Pawns">
+      <UniqueIdentifier>{da11380f-6521-427b-8db8-9ad94518181f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pawn\Pawns\Athena">
+      <UniqueIdentifier>{e66c5246-8a94-4d03-a99f-55b04d8c2b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pawn\Pawns\Farmstead">
+      <UniqueIdentifier>{af725836-dac5-4299-8292-5c6a898ed62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window\Windows\World Inspector">
+      <UniqueIdentifier>{4828f76c-1dd5-4f34-92dc-09354dd0c308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window\Windows\Watermark">
+      <UniqueIdentifier>{71602d1a-2d6a-41de-bdf6-43c688a52496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Window\Windows\Changelog Window">
+      <UniqueIdentifier>{f49e568a-860a-4a16-83ea-3ccdb0f2533b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\FN_Basic.cpp">
+      <Filter>Third Party\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_CoreUObject_functions.cpp">
+      <Filter>Third Party\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Engine_functions.cpp">
+      <Filter>Third Party\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_FortniteGame_functions.cpp">
+      <Filter>Third Party\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="table.cpp">
+      <Filter>Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="base_plate.cpp">
+      <Filter>Tables\Plates\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="peh_table.cpp">
+      <Filter>Tables\Peh Table</Filter>
+    </ClCompile>
+    <ClCompile Include="frontend_plate.cpp">
+      <Filter>Tables\Plates\Frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk_utils.cpp">
+      <Filter>Utilities\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="error_utils.cpp">
+      <Filter>Utilities\Error Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="athena_plate.cpp">
+      <Filter>Tables\Plates\Athena</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="pawn.cpp">
+      <Filter>Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="athena_pawn.cpp">
+      <Filter>Pawn\Pawns\Athena</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\examples\imgui_impl_dx11.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\examples\imgui_impl_win32.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="directory_utils.cpp">
+      <Filter>Utilities\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_renderer.cpp">
+      <Filter>UI\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_window.cpp">
+      <Filter>UI\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="main_window.cpp">
+      <Filter>UI\Window\Windows\Main Window</Filter>
+    </ClCompile>
+    <ClCompile Include="farmstead_plate.cpp">
+      <Filter>Tables\Plates\Farmstead</Filter>
+    </ClCompile>
+    <ClCompile Include="farmstead_pawn.cpp">
+      <Filter>Pawn\Pawns\Farmstead</Filter>
+    </ClCompile>
+    <ClCompile Include="about_window.cpp">
+      <Filter>UI\Window\Windows\About Window</Filter>
+    </ClCompile>
+    <ClCompile Include="peh_plate.cpp">
+      <Filter>Tables\Plates</Filter>
+    </ClCompile>
+    <ClCompile Include="plate.cpp">
+      <Filter>Tables\Plates</Filter>
+    </ClCompile>
+    <ClCompile Include="world_inspector.cpp">
+      <Filter>UI\Window\Windows\World Inspector</Filter>
+    </ClCompile>
+    <ClCompile Include="watermark.cpp">
+      <Filter>UI\Window\Windows\Watermark</Filter>
+    </ClCompile>
+    <ClCompile Include="changelog_window.cpp">
+      <Filter>UI\Window\Windows\Changelog Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.hpp">
+      <Filter>Third Party\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="table.h">
+      <Filter>Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="plate.h">
+      <Filter>Tables\Plates</Filter>
+    </ClInclude>
+    <ClInclude Include="program.h" />
+    <ClInclude Include="build.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="base_plate.h">
+      <Filter>Tables\Plates\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="peh_table.h">
+      <Filter>Tables\Peh Table</Filter>
+    </ClInclude>
+    <ClInclude Include="frontend_plate.h">
+      <Filter>Tables\Plates\Frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk_utils.h">
+      <Filter>Utilities\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="error_utils.h">
+      <Filter>Utilities\Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="athena_plate.h">
+      <Filter>Tables\Plates\Athena</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn.h">
+      <Filter>Pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="athena_pawn.h">
+      <Filter>Pawn\Pawns\Athena</Filter>
+    </ClInclude>
+    <ClInclude Include="directory_utils.h">
+      <Filter>Utilities\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_renderer.h">
+      <Filter>UI\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_window.h">
+      <Filter>UI\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="main_window.h">
+      <Filter>UI\Window\Windows\Main Window</Filter>
+    </ClInclude>
+    <ClInclude Include="farmstead_plate.h">
+      <Filter>Tables\Plates\Farmstead</Filter>
+    </ClInclude>
+    <ClInclude Include="farmstead_pawn.h">
+      <Filter>Pawn\Pawns\Farmstead</Filter>
+    </ClInclude>
+    <ClInclude Include="about_window.h">
+      <Filter>UI\Window\Windows\About Window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_text_extension.h">
+      <Filter>UI\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="peh_plate.h">
+      <Filter>Tables\Plates</Filter>
+    </ClInclude>
+    <ClInclude Include="world_inspector.h">
+      <Filter>UI\Window\Windows\World Inspector</Filter>
+    </ClInclude>
+    <ClInclude Include="watermark.h">
+      <Filter>UI\Window\Windows\Watermark</Filter>
+    </ClInclude>
+    <ClInclude Include="changelog_window.h">
+      <Filter>UI\Window\Windows\Changelog Window</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

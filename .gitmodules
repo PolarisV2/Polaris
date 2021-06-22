@@ -1,0 +1,3 @@
+[submodule "PolarisV2/imgui"]
+	path = PolarisV2/imgui
+	url = https://github.com/ocornut/imgui.git
